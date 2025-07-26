@@ -3,64 +3,54 @@ import { AppBar, Button, Stack, Toolbar, Box } from "@mui/material";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 
 const navLinks = [
-  "Home",
-  "Services",
-  "Commercial Laundry",
-  "Service Areas",
-  "About Us",
-  "Blog",
-  "Contact Us",
+  { label: "Home", href: "#home" },
+  { label: "Services", href: "#services" },
+  { label: "Commercial Laundry", href: "#laundry" },
+  { label: "Service Areas", href: "#areas" },
+  { label: "About Us", href: "#about" },
+  { label: "Blog", href: "#blog" },
+  { label: "Contact Us", href: "#contact" },
 ];
 
 const Navbar = () => {
   return (
-    <AppBar
-      position="static"
-      sx={{
-        bgcolor: "#e4521b",
-        boxShadow: "none",
-      }}
-    >
+    <AppBar position="static" sx={{ bgcolor: "#e4521b", boxShadow: "none" }}>
       <Toolbar
         disableGutters
         sx={{
-          px: 0,
+          px: 2,
           minHeight: "48px !important",
           display: "flex",
           justifyContent: "space-between",
+          flexWrap: { xs: "wrap", md: "nowrap" },
         }}
       >
-        {/* Centered Nav Links */}
+        {/* Nav links */}
         <Box
           sx={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
             flex: 1,
+            display: "flex",
+            justifyContent: "center",
+            flexWrap: "wrap",
           }}
         >
-          <Stack direction="row" spacing={0} sx={{ height: "48px" }}>
-            {navLinks.map((label, index) => (
+          <Stack direction="row" spacing={0}>
+            {navLinks.map(({ label, href }, index) => (
               <Button
                 key={index}
-                disableRipple
+                href={href}
                 sx={{
                   color: "#fff",
                   fontFamily: "Rubik, sans-serif",
                   fontSize: "14px",
                   fontWeight: 500,
                   textTransform: "none",
-                  height: "100%",
+                  height: "48px",
+                  px: 2,
                   borderRadius: 0,
-                  px: 3,
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  ...(label === "Home" && {
-                    background: "linear-gradient(to bottom, #994A29 0%, #004A27 100%)",
-                  }),
                   "&:hover": {
-                    background: "linear-gradient(to bottom, #994A29 0%, #004A27 100%)",
+                    background:
+                      "linear-gradient(to bottom, #994A29 0%, #004A27 100%)",
                   },
                 }}
               >
@@ -88,7 +78,6 @@ const Navbar = () => {
             display: "flex",
             alignItems: "center",
             gap: 1,
-            mr: 0,
             "&:hover": {
               backgroundColor: "#00381f",
             },
