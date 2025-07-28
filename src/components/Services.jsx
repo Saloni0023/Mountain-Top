@@ -55,7 +55,7 @@ const Services = () => {
         <Divider
           sx={{
             width: 70,
-            borderBottom: "2px solid #e4521b",
+            borderBottom: "2px solid #2C3E50",
             mx: "auto",
             mb: 1,
           }}
@@ -74,7 +74,7 @@ const Services = () => {
         }}
       >
         Trusted{" "}
-        <Box component="span" sx={{ color: "#e4521b" }}>
+        <Box component="span" sx={{ color: "#2C3E50" }}>
           Cleaning & Laundry Services
         </Box>{" "}
         Across Sevier County, TN – Gatlinburg, Sevierville & Pigeon Forge
@@ -117,7 +117,7 @@ const Services = () => {
                   variant="body1"
                   sx={{
                     fontWeight: 600,
-                    color: "#004A27",
+                    color: "#16A085",
                     fontSize: "16px",
                     fontFamily: "Poppins, sans-serif",
                   }}

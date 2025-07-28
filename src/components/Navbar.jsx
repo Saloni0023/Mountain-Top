@@ -14,7 +14,7 @@ const navLinks = [
 
 const Navbar = () => {
   return (
-    <AppBar position="static" sx={{ bgcolor: "#e4521b", boxShadow: "none" }}>
+    <AppBar position="static" sx={{ bgcolor: "#2C3E50", boxShadow: "none" }}>
       <Toolbar
         disableGutters
         sx={{
@@ -50,7 +50,7 @@ const Navbar = () => {
                   borderRadius: 0,
                   "&:hover": {
                     background:
-                      "linear-gradient(to bottom, #994A29 0%, #004A27 100%)",
+                      "linear-gradient(to bottom, #2C3E50 0%, #16A085 100%)",
                   },
                 }}
               >
@@ -65,7 +65,7 @@ const Navbar = () => {
           variant="contained"
           disableRipple
           sx={{
-            backgroundColor: "#004A27",
+            backgroundColor: "#16A085",
             color: "#FFFFFF",
             textTransform: "none",
             fontFamily: "Poppins, sans-serif",

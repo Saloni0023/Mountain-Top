@@ -28,7 +28,7 @@ const socialLinks = [
 const Footer = () => (
   <Box
     component="footer"
-    sx={{ bgcolor: "#17563c", color: "#fff", pt: 5, position: "relative" }}
+    sx={{ bgcolor: "#16A085", color: "#fff", pt: 5, position: "relative" }}
   >
     <Grid
       container
@@ -39,11 +39,16 @@ const Footer = () => (
       {/* Logo & About */}
       <Grid item xs={12} md={4}>
         <Box display="flex" alignItems="center" mb={2}>
-          <img
-            src={logo}
-            alt="Mountain Top Cleaning and Maintenance"
-            style={{}}
-          />
+          <Typography
+            sx={{
+              fontFamily: "Rubik, sans-serif",
+              fontSize: { xs: "24px", md: "36px" },
+              color: "#ffff",
+              fontWeight: 700,
+            }}
+          >
+            Mountain Top
+          </Typography>
         </Box>
         <Typography
           sx={{
@@ -108,7 +113,7 @@ const Footer = () => (
                 pl: 0,
                 "&:before": {
                   content: '"»"',
-                  color: "#f9632d",
+                  color: "#2C3E50",
                   mr: 1.2,
                   fontWeight: 700,
                   fontSize: "1.12rem",
@@ -140,7 +145,7 @@ const Footer = () => (
           sx={{ fontSize: 15, fontFamily: "Poppins,sans-serif" }}
         >
           <Box display="flex" alignItems="center">
-            <PlaceIcon sx={{ color: "#f9632d", mr: 1.2, fontSize: 23 }} />
+            <PlaceIcon sx={{ color: "#2C3E50", mr: 1.2, fontSize: 23 }} />
             <span>
               1837 Newport Hwy #3
               <br />
@@ -148,15 +153,15 @@ const Footer = () => (
             </span>
           </Box>
           <Box display="flex" alignItems="center">
-            <PhoneIcon sx={{ color: "#f9632d", mr: 1.2, fontSize: 20 }} />
+            <PhoneIcon sx={{ color: "#2C3E50", mr: 1.2, fontSize: 20 }} />
             <span>+1 (865) 328-2433</span>
           </Box>
           <Box display="flex" alignItems="center">
-            <EmailIcon sx={{ color: "#f9632d", mr: 1.2, fontSize: 20 }} />
+            <EmailIcon sx={{ color: "#2C3E50", mr: 1.2, fontSize: 20 }} />
             <span>office@mountaintopclean.com</span>
           </Box>
           <Box display="flex" alignItems="center">
-            <AccessTimeIcon sx={{ color: "#f9632d", mr: 1.2, fontSize: 20 }} />
+            <AccessTimeIcon sx={{ color: "#2C3E50", mr: 1.2, fontSize: 20 }} />
             <span>Mon – Fri: 8:00am – 5:00pm</span>
           </Box>
         </Stack>
@@ -165,7 +170,7 @@ const Footer = () => (
     {/* Orange Copyright Row */}
     <Box
       sx={{
-        bgcolor: "#FF6333",
+        bgcolor: "#2C3E50",
         color: "#fff",
         fontWeight: 500,
         fontSize: 15,

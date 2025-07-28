@@ -11,7 +11,7 @@ import {
 
 const ContactSection = () => {
   return (
-    <Box sx={{ bgcolor: "#ED5D2B", py: 0, px: 0 }}>
+    <Box sx={{ bgcolor: "#2C3E50", py: 0, px: 0 }}>
       <Grid container alignItems="stretch">
         {/* Left Side - Call Box with Slant */}
         <Grid
@@ -19,7 +19,7 @@ const ContactSection = () => {
           xs={12}
           md={4}
           sx={{
-            bgcolor: "#004A27",
+            bgcolor: "#16A085",
             color: "#fff",
             py: 2,
             px: 3,
@@ -39,7 +39,7 @@ const ContactSection = () => {
                 fontWeight: 700,
                 fontFamily: "Poppins, sans-serif",
                 fontSize: "24px",
-                color: "#f15a29",
+                color: "#2C3E50",
                 mb: 1,
                 textAlign: "left",
               }}
@@ -160,7 +160,7 @@ const ContactSection = () => {
                 variant="contained"
                 fullWidth
                 sx={{
-                  backgroundColor: "#004A27",
+                  backgroundColor: "#16A085",
                   fontWeight: "bold",
                   textTransform: "none",
                   py: 1.2,

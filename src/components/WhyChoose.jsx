@@ -58,7 +58,7 @@ const WhyChoose = () => {
         <Box
           sx={{
             height: 2,
-            background: "#ED5D2B",
+            background: "#2C3E50",
             flex: 1,
             maxWidth: 80,
             mr: 2,
@@ -81,7 +81,7 @@ const WhyChoose = () => {
         <Box
           sx={{
             height: 2,
-            background: "#ED5D2B",
+            background: "#2C3E50",
             flex: 1,
             maxWidth: 80,
             ml: 2,
@@ -103,7 +103,7 @@ const WhyChoose = () => {
         }}
       >
         Why Choose{" "}
-        <Box component="span" sx={{ color: "#f9632d" }}>
+        <Box component="span" sx={{ color: "#2C3E50" }}>
           Mountain Top Cleaning and Maintenance?
         </Box>
       </Typography>
@@ -121,7 +121,7 @@ const WhyChoose = () => {
                     p: 2.5,
                     borderRadius: 2,
                     minHeight: 84,
-                    border: "1.5px solid #ED5D2B",
+                    border: "1.5px solid #2C3E50",
                     boxShadow: "0 2px 8px 0 rgba(249,99,45,0.1)",
                     transition: "box-shadow 0.2s",
                   }}
@@ -130,7 +130,7 @@ const WhyChoose = () => {
                     <Typography
                       component="span"
                       sx={{
-                        color: "#ED5D2B",
+                        color: "#2C3E50",
                         fontWeight: "bold",
                         fontFamily: "Rubik, sans-serif",
                         fontSize: { xs: "28px", md: "36px" },
@@ -209,7 +209,7 @@ const WhyChoose = () => {
                     p: 2.5,
                     borderRadius: 2,
                     minHeight: 84,
-                    border: "1.5px solid #ED5D2B",
+                    border: "1.5px solid #2C3E50",
                     boxShadow: "0 2px 8px 0 rgba(249,99,45,0.1)",
                     transition: "box-shadow 0.2s",
                   }}
@@ -218,7 +218,7 @@ const WhyChoose = () => {
                     <Typography
                       component="span"
                       sx={{
-                        color: "#ED5D2B",
+                        color: "#2C3E50",
                         fontWeight: "bold",
                         fontFamily: "Rubik, sans-serif",
                         fontSize: { xs: "28px", md: "36px" },

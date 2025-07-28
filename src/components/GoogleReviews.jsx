@@ -75,7 +75,7 @@ const GoogleReviews = () => {
         <Box
           sx={{
             height: 2,
-            background: "#ED5D2B",
+            background: "#2C3E50",
             flex: 1,
             maxWidth: 80,
             mr: 2,
@@ -98,7 +98,7 @@ const GoogleReviews = () => {
         <Box
           sx={{
             height: 2,
-            background: "#ED5D2B",
+            background: "#2C3E50",
             flex: 1,
             maxWidth: 80,
             ml: 2,
@@ -120,7 +120,7 @@ const GoogleReviews = () => {
         }}
       >
         Real Reviews,{" "}
-        <Box component="span" sx={{ color: "#f9632d" }}>
+        <Box component="span" sx={{ color: "#2C3E50" }}>
           Real Satisfaction
         </Box>
         — See What Our Clients Say
@@ -139,18 +139,7 @@ const GoogleReviews = () => {
               height: "100%",
             }}
           >
-            {/* Logo on the left */}
-            <img
-              src={logo2}
-              alt="Mountain Top Logo"
-              style={{
-                width: 58,
-                height: 58,
-                borderRadius: "50%",
-                objectFit: "cover",
-                marginRight: 18,
-              }}
-            />
+           
 
             {/* Vertical stack for text, rating, and stars */}
             <Box sx={{ display: "flex", flexDirection: "column", flex: 1 }}>
@@ -285,7 +274,7 @@ const GoogleReviews = () => {
                   <Box display="flex" alignItems="flex-start" mb={2}>
                     <Avatar
                       sx={{
-                        bgcolor: "#f9672b",
+                        bgcolor: "#2C3E50",
                         mr: 2,
                         width: 48,
                         height: 48,

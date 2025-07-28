@@ -52,7 +52,7 @@ const BlogSection = () => {
         <Box
           sx={{
             height: 2,
-            background: "#ED5D2B",
+            background: "#2C3E50",
             flex: 1,
             maxWidth: 80,
             mr: 2,
@@ -75,7 +75,7 @@ const BlogSection = () => {
         <Box
           sx={{
             height: 2,
-            background: "#ED5D2B",
+            background: "#2C3E50",
             flex: 1,
             maxWidth: 80,
             ml: 2,
@@ -96,7 +96,7 @@ const BlogSection = () => {
         <Box
           component="span"
           sx={{
-            color: "#ff6333",
+            color: "#2C3E50",
             fontWeight: 800,
             display: "inline",
           }}
@@ -180,7 +180,7 @@ const BlogSection = () => {
                     textTransform: "none",
                     pl: 0,
                     "&:hover": {
-                      color: "#FF6333",
+                      color: "#2C3E50",
                       bgcolor: "transparent",
                     },
                   }}

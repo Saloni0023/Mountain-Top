@@ -16,13 +16,13 @@ const Home = () => {
       <Hero />
       <ContactSection />
       <FeatureSection />
-      <Services />
+     <div id="services"><Services /></div>
       <Clean />
-      <WhyChoose />
+       <div id="about"><WhyChoose /></div>
       <GoogleReviews />
-      <AreaWeServe />
-      <Map />
-      <BlogSection />
+       <div id="areas"><AreaWeServe /></div>
+      <div id="contact"><Map /></div>
+     <div id="blog"><BlogSection /></div>
     </>
   );
 };

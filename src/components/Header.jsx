@@ -29,7 +29,7 @@ const Header = () => {
           xs={12}
           md={3}
           sx={{
-            backgroundColor: "#004A27",
+            backgroundColor: "#16A085",
             clipPath: "polygon(0 0, 95% 0, 100% 100%, 0% 100%)",
             py: 2,
             px: 2,
@@ -40,7 +40,14 @@ const Header = () => {
             height: "100%",
           }}
         >
-          <img src={logo} alt="Mountain Top Logo" style={{ height: 60 }} />
+          <Typography sx={{
+            fontFamily: "Rubik, sans-serif",
+            fontSize: {xs: "24px", md: "36px"},
+            color: "#ffff",
+            fontWeight: 700,
+          }}>
+            Mountain Top
+          </Typography>
         </Grid>
 
         {/* Info Blocks */}
@@ -87,7 +94,7 @@ const Header = () => {
                     fontFamily: "Poppins",
                     fontSize: "20px",
                     fontWeight: "bold",
-                    color: "#ED5D2B",
+                    color: "#2C3E50",
                   }}
                 >
                   Office Hours
@@ -98,7 +105,7 @@ const Header = () => {
                     fontFamily: "Poppins",
                     fontSize: "16px",
                     fontWeight: "bold",
-                    color: "#004A27",
+                    color: "#16A085",
                   }}
                 >
                   Mon – Fri: 8:00am – 5:00pm
@@ -142,7 +149,7 @@ const Header = () => {
                     fontFamily: "Poppins",
                     fontSize: "20px",
                     fontWeight: "bold",
-                    color: "#ED5D2B",
+                    color: "#2C3E50",
                   }}
                 >
                   Email
@@ -153,7 +160,7 @@ const Header = () => {
                     fontFamily: "Poppins",
                     fontSize: "16px",
                     fontWeight: "bold",
-                    color: "#004A27",
+                    color: "#16A085",
                   }}
                 >
                   office@mountaintopclean.com
@@ -197,7 +204,7 @@ const Header = () => {
                     fontFamily: "Poppins",
                     fontSize: "20px",
                     fontWeight: "bold",
-                    color: "#ED5D2B",
+                    color: "#2C3E50",
                   }}
                 >
                   Call Us Now!
@@ -208,7 +215,7 @@ const Header = () => {
                     fontFamily: "Poppins",
                     fontSize: "16px",
                     fontWeight: "bold",
-                    color: "#004A27",
+                    color: "#16A085",
                   }}
                 >
                   +1 865 328-2433

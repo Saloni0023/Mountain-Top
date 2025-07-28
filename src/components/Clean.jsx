@@ -71,7 +71,7 @@ const Clean = () => {
           variant="contained"
           color="warning"
           sx={{
-              backgroundColor: "#ED5D2B",
+              backgroundColor: "#16A085",
                 color: "#fff",
                 fontFamily: "Poppins, sans-serif",
                 fontWeight: "bold",

@@ -11,7 +11,10 @@ import {
 } from "@mui/material";
 import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
 import LivingRoomImg from "../assets/images/HeroImg.png";
-import CallUs2 from "../assets/images/CallUs-2.svg";
+import CallUs2 from "../assets/images/CallUs-2.png";
+
+
+// This is features sectiongit status
 
 const FeatureSection = () => {
   return (
@@ -26,7 +29,7 @@ const FeatureSection = () => {
               letterSpacing: 1,
               textTransform: "uppercase",
               fontWeight: 600,
-              borderBottom: "2px solid #e4521b",
+              borderBottom: "2px solid #2C3E50",
               pb: 0.5,
               fontSize: "16px",
               display: "inline-block",
@@ -49,7 +52,7 @@ const FeatureSection = () => {
             }}
           >
             Your{" "}
-            <Box component="span" sx={{ color: "#ED5D2B" }}>
+            <Box component="span" sx={{ color: "#2C3E50" }}>
               Experts
             </Box>{" "}
             in Cabin Cleaning & Commercial Laundry
@@ -83,7 +86,7 @@ const FeatureSection = () => {
                   {[...Array(4)].map((_, i) => (
                     <ListItem key={i}>
                       <KeyboardDoubleArrowRightIcon
-                        sx={{ width: "2rem", color: "#ED5D2B" }}
+                        sx={{ width: "2rem", color: "#2C3E50" }}
                       />
 
                       <ListItemText
@@ -91,7 +94,7 @@ const FeatureSection = () => {
                           <Typography
                             variant="body2"
                             sx={{
-                              color: "#004A27",
+                              color: "#16A085",
                               fontWeight: 600,
                               fontSize: "16px",
                               fontFamily: "Poppins, sans-serif",
@@ -124,7 +127,7 @@ const FeatureSection = () => {
             <Box>
               <Typography
                 sx={{
-                  color: "#e4521b",
+                  color: "#16A085",
                   fontWeight: 700,
                   fontFamily: "Poppins, sans-serif",
                   fontSize: "20px",

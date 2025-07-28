@@ -77,7 +77,7 @@ const Hero = () => {
           sx={{
             width: "60%",
             height: "2px",
-            backgroundColor: "#109C3D",
+            backgroundColor: "#16A085",
             my: 2,
           }}
         />
@@ -102,7 +102,7 @@ const Hero = () => {
             <Button
               variant="contained"
               sx={{
-                backgroundColor: "#063A41",
+                backgroundColor: "#16A085",
                 color: "#fff",
                 fontFamily: "Poppins, sans-serif",
                 fontWeight: "bold",

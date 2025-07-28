@@ -80,7 +80,7 @@ const Map = () => (
             size="small"
             sx={{
               textTransform: "none",
-              color: "#f9632d",
+              color: "#2C3E50",
               fontWeight: 500,
               fontSize: 15,
               px: 0,
@@ -100,7 +100,7 @@ const Map = () => (
       xs={12}
       md={4}
       sx={{
-        bgcolor: "#3C2517",
+        bgcolor: "#2C3E50",
         color: "#fff",
         pl: { xs: 2, md: 5 },
         pr: { xs: 2, md: 3 },
@@ -141,7 +141,7 @@ const Map = () => (
             variant="subtitle2"
             sx={{
               fontWeight: "bold",
-              color: "#ED5D2B",
+              color: "#D1D8E0",
               fontFamily: "Poppins, sans-serif",
               textAlign: "left",
               fontSize: "20px",
@@ -166,7 +166,7 @@ const Map = () => (
       <Button
         variant="contained"
         sx={{
-          backgroundColor: "#ED5D2B",
+          backgroundColor: "#16A085",
           color: "#fff",
           fontFamily: "Poppins, sans-serif",
           fontWeight: "bold",

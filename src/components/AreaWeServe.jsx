@@ -36,7 +36,7 @@ const AreaWeServe = () => (
       }}
     >
       Area We{' '}
-      <Box component="span" sx={{ color: "#f9632d" }}>
+      <Box component="span" sx={{ color: "#2C3E50" }}>
         Serve
       </Box>
     </Typography>
