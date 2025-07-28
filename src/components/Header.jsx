@@ -163,7 +163,7 @@ const Header = () => {
                     color: "#16A085",
                   }}
                 >
-                  office@mountaintopclean.com
+                  info@example.com
                 </Typography>
               </Box>
             </Stack>
@@ -218,7 +218,7 @@ const Header = () => {
                     color: "#16A085",
                   }}
                 >
-                  +1 865 328-2433
+                 +1 555 987-6543
                 </Typography>
               </Box>
             </Stack>

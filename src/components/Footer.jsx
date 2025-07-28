@@ -147,18 +147,18 @@ const Footer = () => (
           <Box display="flex" alignItems="center">
             <PlaceIcon sx={{ color: "#2C3E50", mr: 1.2, fontSize: 23 }} />
             <span>
-              1837 Newport Hwy #3
+             123 Innovation Street,
               <br />
-              Sevierville, TN 37876
+               Tech City, NY 10001, USA
             </span>
           </Box>
           <Box display="flex" alignItems="center">
             <PhoneIcon sx={{ color: "#2C3E50", mr: 1.2, fontSize: 20 }} />
-            <span>+1 (865) 328-2433</span>
+            <span>+1 (555) 987-6543</span>
           </Box>
           <Box display="flex" alignItems="center">
             <EmailIcon sx={{ color: "#2C3E50", mr: 1.2, fontSize: 20 }} />
-            <span>office@mountaintopclean.com</span>
+            <span>info@example.com</span>
           </Box>
           <Box display="flex" alignItems="center">
             <AccessTimeIcon sx={{ color: "#2C3E50", mr: 1.2, fontSize: 20 }} />

@@ -157,7 +157,7 @@ const Hero = () => {
                     textAlign: "left",
                   }}
                 >
-                  +1 865 328 2433
+                 +1 (555) 987-6543
                 </Typography>
               </Box>
             </Stack>

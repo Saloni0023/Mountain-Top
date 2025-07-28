@@ -22,8 +22,8 @@ const Map = () => (
       <Box sx={{ position: "relative", height: { xs: 320, md: 380 } }}>
         {/* Google Map iframe */}
         <iframe
-          title="Mountain Top Sevierville House Location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.343568903132!2d-83.51255098477967!3d35.85710808015416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88598f16c6e00e2b%3A0x43753592a0ce4415!2s1837%20Newport%20Hwy%20%233%2C%20Sevierville%2C%20TN%2037876!5e0!3m2!1sen!2sus!4v1721770000000"
+          title="123 Innovation Street, Tech City"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.876425217567!2d-74.00594108459442!3d40.71277537933171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259af18c8e59d%3A0xf1f05b8c9d3c8f4d!2s123%20Innovation%20St%2C%20New%20York%2C%20NY%2010001%2C%20USA!5e0!3m2!1sen!2sin!4v1721871000000"
           width="100%"
           height="100%"
           frameBorder="0"
@@ -47,14 +47,14 @@ const Map = () => (
           }}
         >
           <Typography sx={{ fontWeight: 700, mb: 0.5, fontSize: 17 }}>
-            Mountain Top Sevierville House
+            Innovation Tech Center
           </Typography>
           <Typography sx={{ fontSize: 15, color: "text.secondary", mb: 1 }}>
-            24/7 emergency service
+            24/7 support available
             <br />
-            1837 Newport Hwy #3,
+            123 Innovation Street,
             <br />
-            Sevierville, TN 37876
+            Tech City, NY 10001, USA
           </Typography>
           <Box sx={{ display: "flex", alignItems: "center", mb: 1 }}>
             <Box
@@ -68,12 +68,11 @@ const Map = () => (
               {[...Array(4)].map((_, i) => (
                 <StarIcon key={i} sx={{ fontSize: 18 }} />
               ))}
-              <StarIcon sx={{ fontSize: 18, color: "#FFC72A99" }} />{" "}
-              {/* Half star look */}
+              <StarIcon sx={{ fontSize: 18, color: "#FFC72A99" }} />
             </Box>
-            <Typography sx={{ fontWeight: 500, fontSize: 15 }}>4.6</Typography>
+            <Typography sx={{ fontWeight: 500, fontSize: 15 }}>4.9</Typography>
             <Typography sx={{ color: "text.secondary", fontSize: 14, ml: 0.8 }}>
-              · 10 reviews
+              · 98 reviews
             </Typography>
           </Box>
           <Button
@@ -159,10 +158,11 @@ const Map = () => (
               textAlign: "left",
             }}
           >
-            +1 865 328 2433
+            +1 (555) 987-6543
           </Typography>
         </Box>
       </Stack>
+
       <Button
         variant="contained"
         sx={{

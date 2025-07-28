@@ -15,7 +15,6 @@ import CallUs2 from "../assets/images/CallUs-2.png";
 
 
 // This is features sectiongit status
-
 const FeatureSection = () => {
   return (
     <Box sx={{ py: 6, px: { xs: 2, md: 6 }, bgcolor: "#fff" }}>
@@ -143,7 +142,7 @@ const FeatureSection = () => {
                   fontFamily: "Poppins, sans-serif",
                 }}
               >
-                +1 865 328 2433
+               +1 234567890
               </Typography>
             </Box>
           </Stack>
